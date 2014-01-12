@@ -12,8 +12,8 @@ class Camera:
 	def led_on(self):
 		GPIO.output(CameraLedPin, True)
 
-	def lead_off(self):
-		GPIO.output(CamerLedPin, False)
+	def led_off(self):
+		GPIO.output(CameraLedPin, False)
 
 
 	def take_photo(self, filename):
